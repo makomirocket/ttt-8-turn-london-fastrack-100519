@@ -1,1 +1,13 @@
 #!/usr/bin/env ruby
+#tic tac toe!!!!
+
+require_relative '../lib/turn.rb'
+
+puts "Hello there! Welcome to my game!!!!"
+puts "Would you like to play a new game? y/n?"
+
+play_or_not = user_play_or_not
+
+board = " ", " ", " ", " ", " ", " ", " ", " ", " "
+
+puts ("I\'ll let you go first, make a move")
